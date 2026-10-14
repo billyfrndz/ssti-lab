@@ -1,0 +1,7 @@
+services:
+  jinja2-vuln:
+    build: ./jinja2-vuln
+    ports: ["3001:5000"]
+  jinja2-safe:
+    build: ./jinja2-safe
+    ports: ["3002:5000"]
